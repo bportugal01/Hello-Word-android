@@ -1,0 +1,39 @@
+ <summary>
+            Use the assembly qualified .NET type name as the schema Id.
+            </summary>
+    </member>
+    <member name="T:Newtonsoft.Json.Schema.ValidationEventArgs">
+      <summary>
+        <para>
+            Returns detailed information related to the <see cref="T:Newtonsoft.Json.Schema.ValidationEventHandler"/>.
+            </para>
+        <note type="caution">
+            JSON Schema validation has been moved to its own package. See <see href="https://www.newtonsoft.com/jsonschema">https://www.newtonsoft.com/jsonschema</see> for more details.
+            </note>
+      </summary>
+    </member>
+    <member name="P:Newtonsoft.Json.Schema.ValidationEventArgs.Exception">
+      <summary>
+            Gets the <see cref="T:Newtonsoft.Json.Schema.JsonSchemaException"/> associated with the validation error.
+            </summary>
+      <value>The JsonSchemaException associated with the validation error.</value>
+    </member>
+    <member name="P:Newtonsoft.Json.Schema.ValidationEventArgs.Path">
+      <summary>
+            Gets the path of the JSON location where the validation error occurred.
+            </summary>
+      <value>The path of the JSON location where the validation error occurred.</value>
+    </member>
+    <member name="P:Newtonsoft.Json.Schema.ValidationEventArgs.Message">
+      <summary>
+            Gets the text description corresponding to the validation error.
+            </summary>
+      <value>The text description.</value>
+    </member>
+    <member name="T:Newtonsoft.Json.Schema.ValidationEventHandler">
+      <summary>
+        <para>
+            Represents the callback method that will handle JSON schema validation events and the <see cref="T:Newtonsoft.Json.Schema.ValidationEventArgs"/>.
+            </para>
+        <note type="caution">
+            JSON Schema validation has been moved to its own package. See <see href="https://www.newt
